@@ -1,5 +1,5 @@
 # This tag should match the release tag in Github
-TAG = "Topic_Venue_month_day_year"
+TAG = "CogNeuroOpenReproducible_SRAlab_10_16_2023"
 
 all: render-talk push-talk render-site push-site
 

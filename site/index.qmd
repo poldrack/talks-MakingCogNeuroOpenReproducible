@@ -1,7 +1,7 @@
 ---
 ---
 
-## Talks about the template project
+## Talks about Making Cognitive Neuroscience Open and Reproducible
 
 [Current version of talk](talk/)
 

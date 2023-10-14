@@ -1,3 +1,6 @@
-title = "A blank template for a talk"
-tag = "Topic_Venue_month_day_year"
+title = "Making Cognitive Neuroscience Open and Reproducible"
+tag = "CogNeuroOpenReproducible_SRAlab_10_16_2023"
 base_url = "http://poldrack.github.io"
+remote = "git@github.com:poldrack/talks-MakingCogNeuroOpenReproducible.git"
+talk_url = "http://poldrack.github.io/talks-MakingCogNeuroOpenReproducible/talk/talk.html"
+repo_url = "http://poldrack.github.io/talks-MakingCogNeuroOpenReproducible"

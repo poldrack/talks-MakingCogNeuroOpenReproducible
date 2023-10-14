@@ -3,10 +3,10 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Template talk"
+  title: "Making Cognitive Neuroscience Open and Reproducible"
   navbar:
     left:
-      - href: https://github.com/poldrack/talks-template
+      - href: http://poldrack.github.io/talks-MakingCogNeuroOpenReproducible
         text: Github page
 
 format:

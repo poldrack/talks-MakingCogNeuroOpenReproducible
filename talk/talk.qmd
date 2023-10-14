@@ -1,5 +1,5 @@
 ---
-title: "Talk template" 
+title: "Making Cognitive Neuroscience Open and Reproducible" 
 author: Russ Poldrack
 institute: Stanford University
 title-slide-attributes:
@@ -7,7 +7,7 @@ title-slide-attributes:
     data-background-opacity: "0.5"
 format:
   revealjs: 
-    footer: "https://poldrack.github.io/talks-template/"
+    footer: "http://poldrack.github.io/talks-MakingCogNeuroOpenReproducible"
     slide-number: true
     chalkboard: 
       buttons: false
@@ -17,4 +17,674 @@ format:
     width: 1920
 ---
 
-## Template slide
+
+
+##  {.centered-bigger}
+
+::: {.absolute top=0% width=100% style="font-size: 1.2em; text-align: center;"}
+The dimensions of scientific reproducibility
+:::
+
+
+![](./images/turingway_reproduducibilty.png){.absolute top="20%" left="20%" width="60%"}
+
+::: {.absolute top=82% left=30% style="font-size: 0.6em; text-align: center;"}
+From The Turing Way, Ch. 2; doi:10.5281/zenodo.3233853
+:::
+
+
+##  {.centered-bigger}
+
+![](./images/turingway_generalizable.png){.absolute top="0%" left="25%" height="40%"}
+
+::: {.absolute top=50% left=0% style="font-size: 1.2em; text-align: center;"}
+Are neuroimaging results generalizable?
+
+Given different data and different analysis, can we come to the same general conclusions?
+:::
+
+
+
+## {.centered-bigger}
+
+What is the brain dysfunction in major depression?
+
+Meta-analysis of 99 published studies
+
+![](./images/muller_2017_figure2.png){.absolute top="20%" left="10%" height="75%"}
+
+::: {.absolute top=95% left=0% style="font-size: 0.8em; text-align: left;"}
+Muller et al, 2017, *JAMA Psychiatry*
+:::
+
+##
+
+![](./images/muller_title.png){.absolute top="10%" left="00%" height="40%"}
+
+![](./images/muller_abstract.png){.absolute top="50%" left="00%" height="40%"}
+
+
+
+## Neuroscience research is badly underpowered
+
+![](images/button_title.png){.absolute top="20%" left="0%" width="40%"}
+![](images/button_journal.png){.absolute top="45%" left="5%" width="30%"}
+![](images/button_figure.png){.absolute top="55%" left="0%" width="45%"}
+
+
+![](images/dumas_title.png){.absolute top="10%" left="55%" height="35%"}
+![](images/dumas_figure.png){.absolute top="50%" left="50%" height="50%"}
+
+
+## Low power -> unreliable science
+
+:::: {.columns}
+::: {.column width="50%"}
+Positive Predictive Value (PPV): The probability that a positive result is true
+:::
+::: {.column width="50%"}
+Winner’s Curse: overestimation of effect sizes for significant results
+:::
+::::
+![](images/ppv_formula.png){.absolute top="20%" left="00%" width="50%"}
+
+![](images/ppv_by_power.png){.absolute top="35%" left="00%" width="40%"}
+
+![](images/winners_curse.png){.absolute top="30%" left="50%" width="40%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Button et al, 2013
+:::
+
+## Small samples = high instability of statistical estimates
+
+![](images/schonbrodt.png){.absolute top="15%" left="18%" height="70%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Schonbrodt & Perugini, 2013
+:::
+
+
+## 
+
+![](images/marek.png){.absolute top="0%" left="17%" height="85%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Marek et al., 2022
+:::
+
+## Small samples + publication bias: the case of candidate genes
+
+![](images/molendijk_title.png){.absolute top="10%" left="0%" height="20%"}
+
+![](images/molendijk_figure.png){.absolute top="30%" left="30%" height="60%"}
+
+## Candidate gene associations fail in well-powered GWAS
+
+![](images/stein_plot.png){.absolute top="20%" left="60%" width="35%"}
+
+![](images/stein_title.png){.absolute top="10%" left="0%" width="80%"}
+
+::: {.absolute top=25% left=1% style="text-align: left;"}
+Jason stein et al. for the ENIGMA Consortium
+:::
+
+![](images/stein_journal.png){.absolute top="32%" left="1%" width="40%"}
+
+::: {.absolute top=40% left=1% width=50% style="font-size: 1.2em; text-align: left;"}
+"In general, previously identified poly­morphisms associated with hippocampal volume showed little association in our meta­-analysis (BDNF, TOMM40, CLU, PICALM, ZNF804A, COMT, DISC1, NRG1, DTNBP1), nor did SNPs previously associated with schizophrenia or bipolar disorder"
+:::
+
+## How well powered are fMRI studies?
+
+![](images/Figure1_2023.png){.absolute top="10%" left="5%" width="80%"}
+
+
+::: {.absolute top=75% left=0% style="text-align: left;"}
+- Median study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67
+- Is that plausible?
+:::
+
+
+::: {.absolute top=90% left=0% style="text-align: center;"}
+Updated from Poldrack et al., 2017
+:::
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
+
+![](images/effect_size_pt3.png){.absolute top="55%" left="45%" height="35%"}
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_arrows.png){.absolute top="38%" left="45%" height="20%"}
+
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
+
+![](images/effect_size_pt3.png){.absolute top="55%" left="45%" height="35%"}
+
+::: {.absolute top="40%" left="75%" width="15%" style="font-size: 1.3em; text-align: center;"}
+Unbiased effect size estimate
+:::
+
+## What are realistic effect sizes for fMRI?
+
+![](images/effect_size_plot.png){.absolute top="10%" left="5%" height="75%"}
+
+::: {.absolute top=90% left=0% style="text-align: center;"}
+Poldrack et al., 2017, *Nature Reviews Neuroscience*
+:::
+
+## Depression studies from Muller et al.
+
+![](images/muller_n_by_year_sufficientN.png){.absolute top="10%" left="0%" width="50%"}
+
+::: {.absolute top=17% left=50% style="text-align: left;"}
+**Authors must collect at last 20 observations per cell or else provide a compelling cost-of-data-collection justification.** This requirement offers extra protection for the first requirement. Samples smaller than 20 per cell are simply not powerful enough to detect most effects, and so there is usually no good reason to decide in advance to collect such a small number of observations. Smaller samples, it follows, are much more likely to reflect interim data analysis and a flexible termination rule (Simmons et al., 2011)
+:::
+
+## Small samples -> variable estimates of predictive accuracy
+
+![](images/varoquaux_variability.png){.absolute top="10%" left="12%" height="75%"}
+
+::: {.absolute top=90% left=0% style="text-align: left;"}
+Varoquaux, 2018
+:::
+
+## Small samples + publication bias -> inflated accuracy estimates
+
+![](images/varoquaux_decline.png){.absolute top="10%" left="12%" height="75%"}
+
+::: {.absolute top=90% left=0% style="text-align: left;"}
+Varoquaux, 2018
+:::
+
+
+
+##  {.centered-bigger}
+
+![](./images/turingway_generalizable.png){.absolute top="0%" left="25%" height="40%"}
+
+::: {.absolute top=50% left=0% style="font-size: 1.2em; text-align: center;"}
+The generalizability of neuroimaging results is imperiled by low sample sizes
+
+:::
+
+
+
+
+
+## Improving statistical power through data sharing
+
+![](images/data_sharing.png){.absolute top="10%" left="0%" width="100%"}
+
+
+
+## OpenNeuro: Sharing raw and processed neuroimaging data
+
+![](./images/openneuro_landing.png){.absolute top=10% left=15% height=80%}
+
+::: {.absolute top=85% left=0}
+Markiewicz et al, 2021, *eLife*
+:::
+##
+
+::: {.absolute top=20% left=0% style="font-size: 2em; text-align: center;"}
+Simply sharing data is not sufficient - It's easy to share data badly.
+:::
+
+
+##
+
+::: {.absolute top=20% left=0% style="font-size: 2em; text-align: center;"}
+Simply sharing data is not sufficient - It's easy to share data badly.
+:::
+
+::: {.absolute top=55% left=0% style="font-size: 2em; text-align: center;"}
+Data must be shared in a way that makes them useful!
+:::
+
+
+## Brain Imaging Data Structure (BIDS)
+<div style='font-size: 1.2em'>
+- A community-based open standard for neuroimaging data
+  - A file organization standard
+  - A metadata standard
+- Available for MRI, PET, EEG, iEEG, fNIRS
+</div>
+![](./images/bids_scidata.png){.absolute top=45% left=0% height=35%}
+![](./images/dicom_to_bids.png){.absolute top=40% left=45% height=50%}
+
+
+
+## The growing usage of BIDS: An example
+
+:::: {.columns}
+::: {.column width="50%"}
+<div style='font-size: 1.2em'>
+- MRIQC Web API
+  - Crowdsourced database of MRIQC metrics
+  - QC metrics from ~450K unique BOLD scans and ~350K T1w scans as of June 2023
+  - Publicly available:
+https://mriqc.nimh.nih.gov/
+</div>
+:::
+::: {.column width="50%"}
+
+:::
+::::
+![](./images/mriqc_webapi_title.png){.absolute top=10% left=50% height=25%}
+
+![](./images/mriqc_api_growth.png){.absolute top=40% left=50% height=50%}
+
+
+
+## BIDS has enabled consistent growth of OpenNeuro
+
+![](./images/combined_growth.png){.absolute top=10% left=10% height=70%}
+
+
+::: {.absolute top=85% left=0 style="font-size: 0.8em;"}
+updated from Markiewicz et al, 2021, *eLife*
+:::
+
+
+##  {.centered-bigger}
+
+![](./images/turingway_robust.png){.absolute top="0%" left="25%" height="40%"}
+
+::: {.absolute top=50% left=0% style="font-size: 1.2em; text-align: center;"}
+Are neuroimaging results robust?
+
+Given the same data and different analysis, can we come to the same  conclusions?
+:::
+
+
+## Multiverse analysis
+
+:::: {.columns}
+::: {.column width="40%"}
+- If the same dataset is analyzed in different ways, do we get the same answer?
+- Previous work shows large effects of different analysis workflows
+  - “Vibration of effects” (Ioannidis)
+:::
+::::
+
+![](./images/steegen_multiverse.png){.absolute top="0%" left="40%" width="55%"}
+
+::: {.absolute top=70% left=60%}
+Steegen et al., 2016
+:::
+
+## 
+
+![](images/processing_options.png){.absolute top="0%" left="15%" height="87%"}
+
+::: {.absolute top=90% left=35% style="text-align: left;"}
+Poldrack et al., 2017
+:::
+
+##
+
+![](images/carp_secret_title.png){.absolute top="0%" left="0%" height="15%"}
+![](images/carp_secret_journal.png){.absolute top="15%" left="0%" height="5%"}
+![](images/carp_secret_plots.png){.absolute top="20%" left="5%" width="85%"}
+
+::: {.absolute top=80% left=0% width="100%" style="text-align: center;"}
+"data collection and analysis methods were highly flexible across studies, with nearly as many unique analysis pipelines as there were studies in the sample [241]."
+:::
+
+## 
+
+![](images/carp_variability_title.png){.absolute top="0%" left="0%" height="25%"}
+![](images/carp_variability_result.png){.absolute top="30%" left="5%" width="85%"}
+
+
+
+## Improving reproducibility through pre-registration
+
+:::: {.columns}
+::: {.column width="50%"}
+- Register analysis plan prior to accessing data
+    - Preferably with code based on analysis of simulated data
+- This does not prevent exploratory analysis
+    - But planned and exploratory analyses should be clearly delineated in the paper
+- If the preregistration commits you to something that you learn is bad, you can always deviate
+  - as long as you are explicit in the paper
+:::
+::::
+
+![](images/mriqc_prereg.png){.absolute top="15%" left="55%" width="45%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html
+:::
+
+##
+
+:::: {.columns}
+::: {.column width="40%"}
+- The requirement for clinical trial registration was associated with many more null effects
+- This is a “cost” under the current incentives to publish
+
+:::
+::::
+
+![](images/kaplan_irvin.png){.absolute top="0%" left="40%" height="85%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Kaplan & Irvin, 2015
+:::
+
+##
+
+::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
+
+Pre-registration prevents p-hacking but does not eliminate analytic variability
+\
+\
+How variable are neuroimaging analysis workflows in the wild?
+\
+\
+What is the effect on scientific inferences?
+:::
+
+##
+
+![](images/narps_group.png){.absolute top="0%" left="10%" height="90%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Data collection: Mixed gambles task
+
+- Functional MRI data for 108 subjects collected at Tel Aviv University
+
+![](images/narps_task.png){.absolute top="20%" left="10%" height="70%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Study recruitment
+
+- Analysis teams recruited via social media and conferences
+  - Up to 3 people each
+  - Signed non-disclosure agreement
+  - Offered co-authorship on initial paper
+- Raw dataset (~400GB) distributed to 82 teams via Globus
+- Teams given ~3 months to provide Y/N answers to 9 hypothesis tests:
+  - Is there significant activation in <brain area> for <feature of experimental design>?
+- Using their standard analysis workflow
+  - Only restriction was that analysis should include whole brain
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Results collection
+
+- Received final results from 70 teams
+- Teams reported their yes/no decisions for each hypothesis
+  - Also uploaded the whole-brain statistical maps before and after thresholding
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## How variable are workflows in the wild?
+
+![](images/cobidas_title.png){.absolute top="20%" left="10%" width="70%"}
+
+::: {.absolute top=55% width="100%" style="text-align: center;"}
+- Teams provided a detailed written description of analysis workflows
+- No 2 teams used an identical workflow
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## What is the effect of analytic variability on outcomes?
+
+![](images/narps_outcomes.png){.absolute top="10%" left="20%" height="60%"}
+
+::: {.absolute top=75%}
+- Across teams there were 33 different patterns of outcomes
+- For any hypothesis, there are at least 4 workflows that can give a positive result
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Variability of whole-brain results
+
+::: {.absolute top=15% width="100%" style="font-size: 1.4em; text-align: center;"}
+Proportion of teams with activity in each voxel
+:::
+
+![](images/narps_wholebrain.png){.absolute top="30%" left="15%" width="70%"}
+
+::: {.absolute top=70% width="100%" style="font-size: 1.4em; text-align: center;"}
+Maximum overlap for all hypotheses: 76%
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+##
+
+![](images/narps_corrmap1){.absolute top="0%" left="0%" height="90%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+##
+
+![](images/narps_corrmap2){.absolute top="0%" left="0%" height="90%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Meta-analysis across groups shows reliable findings
+
+![](images/narps_meta.png){.absolute top="10%" left="8%" height="80%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## How to improve analytic robustness
+
+![](images/elife_multi_analyst.png){.absolute top="10%" left="0%" height="30%"}
+![](images/blind_analysis.png){.absolute top="50%" left="0%" height="45%"}
+![](images/simulated_data_gelman.png){.absolute top="30%" left="50%" width="45%"}
+
+
+## Improving robustness using well-tested software tools
+
+![](https://www.nipreps.org/assets/nipreps-chart.png){.absolute top=10% left=15% height=75%}
+
+
+
+## fMRIprep: Robust preprocessing of fMRI data
+
+![](./images/fmriprep/fmriprep.jpg){.absolute top=10% left=15% height=80%}
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+fmriprep.org; Esteban et al, 2019
+:::
+
+
+## MRIQC: MRI quality control for BIDS data
+
+![](https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0184661.g005){.absolute top=10% left=25% height=80%}
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+mriqc.org; Esteban et al, 2017
+:::
+
+
+##  {.centered-bigger}
+
+![](./images/turingway_replicable.png){.absolute top="0%" left="25%" height="40%"}
+
+::: {.absolute top=50% left=0% style="font-size: 1.2em; text-align: center;"}
+Are neuroimaging results replicable?
+
+If we run the same study again, can we get the same result?
+:::
+
+
+##
+
+![](./images/rpp_result.jpeg){.absolute top="0%" left="15%" height="80%"}
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+Open Science Collaboration, 2015
+:::
+
+
+## Irreproducible correlations
+
+:::: {.columns}
+::: {.column width="40%"}
+- Boekel et al., 2015
+  - "Here, we attempt to replicate five structural brain-behavior correlation studies comprising a total of 17 effects. To prevent the impact of QRPs we employed a preregistered, purely confirmatory replication approach. For all but one of the 17 findings under scrutiny, confirmatory Bayesian hypothesis tests indicated evidence in favor of the null hypothesis ranging from anecdotal (BF < 3) to strong (BF > 10). In several studies, effect size estimates were substantially lower than in the original studies."
+:::
+::::
+
+![](./images/boekel_metafigure.jpg){.absolute top="0%" left="50%" width="45%"}
+
+
+## The challenges of reproducing the “same” analysis
+
+
+![](./images/cobidas_title.png){.absolute top="10%" left="20%" width="60%"}
+
+::: {.absolute top=40% left=0% style="font-size: 1.2em; text-align: center;"}
+In the NARPS study, even with a standards-compliant description of the workflow it was often impossible to tell what was actually done in the analysis.
+:::
+
+## The necessity of code sharing
+
+::: {.absolute top=20% left=0% style="font-size: 1.4em; text-align: center;"}
+“an article about a computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result.”  - adapted from Buckheit & Donoho, 1995 
+:::
+
+
+## Overfitting and double-dipping
+
+![](./images/nih_headline_suicide.png){.absolute top="10%" left="00%" height="80%"}
+
+## Overfitting and double-dipping
+
+![](./images/nih_headline_suicide.png){.absolute top="10%" left="00%" height="80%"}
+
+![](./images/suicide_pattern.png){.absolute top="30%" left="50%" height="60%"}
+
+## Overfitting and double-dipping
+
+![](./images/cmu_press_release.png){.absolute top="10%" left="20%" height="80%"}
+
+## Overfitting and double-dipping
+
+![](./images/just_retraction.png){.absolute top="10%" left="0%" width="100%"}
+
+## 
+<div style="font-size: 1.5em">
+- Used recklessly, machine learning methods can easily go wrong
+</div>
+
+![](./images/kapoor_title.png){.absolute top=30% left=0% height=25%}
+
+:::{.absolute top=65% style='font-size: 1.5em;'}
+"We surveyed a variety of research
+that uses ML and found that data leakage affects at least 294 studies across 17 fields, leading to overoptimistic findings."
+:::
+
+##
+
+![](./images/reforms_title.png){.absolute top=0% left=0% height=40%}
+
+:::{.absolute top=65% left=15% style='font-size: 1.5em;'}
+Checklist at https://reforms.cs.princeton.edu/
+:::
+
+
+
+##  {.centered-bigger}
+
+![](./images/turingway_reproducible.png){.absolute top="0%" left="25%" height="40%"}
+
+::: {.absolute top=50% left=0% style="font-size: 1.2em; text-align: center;"}
+Are neuroimaging results reproducible?
+
+Given the same data and code, can we get the same result?
+:::
+
+## Challenges of computational reproducibility
+
+:::: {.columns}
+::: {.column width="50%"}
+- Hardwicke et al., 2021
+  - We evaluated analytic reproducibility in 25 Psychological Science articles awarded open data badges between 2014 and 2015. Initially, 16 (64%, 95% confidence interval [43,81]) articles contained at least one ‘major numerical discrepancy' (>10% difference) prompting us to request input from original authors. Ultimately, target values were reproducible without author involvement for 9 (36% [20,59]) articles; reproducible with author involvement for 6 (24% [8,47]) articles; not fully reproducible with no substantive author response for 3 (12% [0,35]) articles; and not fully reproducible despite author involvement for 7 (28% [12,51]) articles.
+:::
+::::
+
+![](./images/hardwicke_figure.gif){.absolute top="10%" left="55%" width="40%"}
+
+
+## Platform-dependence of analysis results
+
+![](./images/glatard_result.png){.absolute top="10%" left="0%" height="80%"}
+
+
+## Sharing platforms via containers
+
+:::: {.columns}
+::: {.column width="50%"}
+- Containers provide a way to share an entire computing platform
+  - Includes specific versions of all software libraries
+:::
+::::
+
+![](./images/docker.png){.absolute top="20%" left="50%" height="70%"}
+
+
+##
+
+::: {.absolute top=0% width="100%" style="text-align: center;"}
+We have the tools that we need to solve the reproducibility problems in neuroimaging.
+:::
+
+![](./images/finale.png){.absolute top="15%" left="10%" width="80%"}
+
+
+
+##
+
+![](images/poldracklab_acknowledgments.png){.absolute top="0%" left="0%" height="90%"}
+
+

@@ -1,9 +1,450 @@
 [
   {
-    "objectID": "talk.html#template-slide",
-    "href": "talk.html#template-slide",
-    "title": "Talk template",
-    "section": "Template slide",
-    "text": "Template slide\n\n\nhttps://poldrack.github.io/talks-template/"
+    "objectID": "talk.html#section",
+    "href": "talk.html#section",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "The dimensions of scientific reproducibility\n\n\n\nFrom The Turing Way, Ch. 2; doi:10.5281/zenodo.3233853"
+  },
+  {
+    "objectID": "talk.html#section-1",
+    "href": "talk.html#section-1",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Are neuroimaging results generalizable?\nGiven different data and different analysis, can we come to the same general conclusions?"
+  },
+  {
+    "objectID": "talk.html#section-2",
+    "href": "talk.html#section-2",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "What is the brain dysfunction in major depression?\nMeta-analysis of 99 published studies\n\n\nMuller et al, 2017, JAMA Psychiatry"
+  },
+  {
+    "objectID": "talk.html#neuroscience-research-is-badly-underpowered",
+    "href": "talk.html#neuroscience-research-is-badly-underpowered",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Neuroscience research is badly underpowered",
+    "text": "Neuroscience research is badly underpowered"
+  },
+  {
+    "objectID": "talk.html#low-power---unreliable-science",
+    "href": "talk.html#low-power---unreliable-science",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Low power -> unreliable science",
+    "text": "Low power -&gt; unreliable science\n\n\nPositive Predictive Value (PPV): The probability that a positive result is true\n\nWinner’s Curse: overestimation of effect sizes for significant results\n\n\n\n\n\n\nButton et al, 2013"
+  },
+  {
+    "objectID": "talk.html#small-samples-high-instability-of-statistical-estimates",
+    "href": "talk.html#small-samples-high-instability-of-statistical-estimates",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Small samples = high instability of statistical estimates",
+    "text": "Small samples = high instability of statistical estimates\n\n\nSchonbrodt & Perugini, 2013"
+  },
+  {
+    "objectID": "talk.html#section-4",
+    "href": "talk.html#section-4",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Marek et al., 2022"
+  },
+  {
+    "objectID": "talk.html#small-samples-publication-bias-the-case-of-candidate-genes",
+    "href": "talk.html#small-samples-publication-bias-the-case-of-candidate-genes",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Small samples + publication bias: the case of candidate genes",
+    "text": "Small samples + publication bias: the case of candidate genes"
+  },
+  {
+    "objectID": "talk.html#candidate-gene-associations-fail-in-well-powered-gwas",
+    "href": "talk.html#candidate-gene-associations-fail-in-well-powered-gwas",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Candidate gene associations fail in well-powered GWAS",
+    "text": "Candidate gene associations fail in well-powered GWAS\n\n\n\nJason stein et al. for the ENIGMA Consortium\n\n\n\n“In general, previously identified poly­morphisms associated with hippocampal volume showed little association in our meta­-analysis (BDNF, TOMM40, CLU, PICALM, ZNF804A, COMT, DISC1, NRG1, DTNBP1), nor did SNPs previously associated with schizophrenia or bipolar disorder”"
+  },
+  {
+    "objectID": "talk.html#how-well-powered-are-fmri-studies",
+    "href": "talk.html#how-well-powered-are-fmri-studies",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "How well powered are fMRI studies?",
+    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
+  },
+  {
+    "objectID": "talk.html#estimating-realistic-effect-sizes",
+    "href": "talk.html#estimating-realistic-effect-sizes",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Estimating realistic effect sizes",
+    "text": "Estimating realistic effect sizes"
+  },
+  {
+    "objectID": "talk.html#estimating-realistic-effect-sizes-1",
+    "href": "talk.html#estimating-realistic-effect-sizes-1",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Estimating realistic effect sizes",
+    "text": "Estimating realistic effect sizes"
+  },
+  {
+    "objectID": "talk.html#estimating-realistic-effect-sizes-2",
+    "href": "talk.html#estimating-realistic-effect-sizes-2",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Estimating realistic effect sizes",
+    "text": "Estimating realistic effect sizes"
+  },
+  {
+    "objectID": "talk.html#estimating-realistic-effect-sizes-3",
+    "href": "talk.html#estimating-realistic-effect-sizes-3",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Estimating realistic effect sizes",
+    "text": "Estimating realistic effect sizes\n\n\n\n\n\nUnbiased effect size estimate"
+  },
+  {
+    "objectID": "talk.html#what-are-realistic-effect-sizes-for-fmri",
+    "href": "talk.html#what-are-realistic-effect-sizes-for-fmri",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "What are realistic effect sizes for fMRI?",
+    "text": "What are realistic effect sizes for fMRI?\n\n\nPoldrack et al., 2017, Nature Reviews Neuroscience"
+  },
+  {
+    "objectID": "talk.html#depression-studies-from-muller-et-al.",
+    "href": "talk.html#depression-studies-from-muller-et-al.",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Depression studies from Muller et al.",
+    "text": "Depression studies from Muller et al.\n\n\nAuthors must collect at last 20 observations per cell or else provide a compelling cost-of-data-collection justification. This requirement offers extra protection for the first requirement. Samples smaller than 20 per cell are simply not powerful enough to detect most effects, and so there is usually no good reason to decide in advance to collect such a small number of observations. Smaller samples, it follows, are much more likely to reflect interim data analysis and a flexible termination rule (Simmons et al., 2011)"
+  },
+  {
+    "objectID": "talk.html#small-samples---variable-estimates-of-predictive-accuracy",
+    "href": "talk.html#small-samples---variable-estimates-of-predictive-accuracy",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Small samples -> variable estimates of predictive accuracy",
+    "text": "Small samples -&gt; variable estimates of predictive accuracy\n\n\nVaroquaux, 2018"
+  },
+  {
+    "objectID": "talk.html#small-samples-publication-bias---inflated-accuracy-estimates",
+    "href": "talk.html#small-samples-publication-bias---inflated-accuracy-estimates",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Small samples + publication bias -> inflated accuracy estimates",
+    "text": "Small samples + publication bias -&gt; inflated accuracy estimates\n\n\nVaroquaux, 2018"
+  },
+  {
+    "objectID": "talk.html#section-5",
+    "href": "talk.html#section-5",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "The generalizability of neuroimaging results is imperiled by low sample sizes"
+  },
+  {
+    "objectID": "talk.html#improving-statistical-power-through-data-sharing",
+    "href": "talk.html#improving-statistical-power-through-data-sharing",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Improving statistical power through data sharing",
+    "text": "Improving statistical power through data sharing"
+  },
+  {
+    "objectID": "talk.html#openneuro-sharing-raw-and-processed-neuroimaging-data",
+    "href": "talk.html#openneuro-sharing-raw-and-processed-neuroimaging-data",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "OpenNeuro: Sharing raw and processed neuroimaging data",
+    "text": "OpenNeuro: Sharing raw and processed neuroimaging data\n\n\nMarkiewicz et al, 2021, eLife"
+  },
+  {
+    "objectID": "talk.html#section-6",
+    "href": "talk.html#section-6",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Simply sharing data is not sufficient - It’s easy to share data badly."
+  },
+  {
+    "objectID": "talk.html#section-7",
+    "href": "talk.html#section-7",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Simply sharing data is not sufficient - It’s easy to share data badly.\n\n\nData must be shared in a way that makes them useful!"
+  },
+  {
+    "objectID": "talk.html#brain-imaging-data-structure-bids",
+    "href": "talk.html#brain-imaging-data-structure-bids",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Brain Imaging Data Structure (BIDS)",
+    "text": "Brain Imaging Data Structure (BIDS)\n\n\nA community-based open standard for neuroimaging data\n\nA file organization standard\nA metadata standard\n\nAvailable for MRI, PET, EEG, iEEG, fNIRS"
+  },
+  {
+    "objectID": "talk.html#the-growing-usage-of-bids-an-example",
+    "href": "talk.html#the-growing-usage-of-bids-an-example",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "The growing usage of BIDS: An example",
+    "text": "The growing usage of BIDS: An example\n\n\n\n\nMRIQC Web API\n\nCrowdsourced database of MRIQC metrics\nQC metrics from ~450K unique BOLD scans and ~350K T1w scans as of June 2023\nPublicly available: https://mriqc.nimh.nih.gov/"
+  },
+  {
+    "objectID": "talk.html#bids-has-enabled-consistent-growth-of-openneuro",
+    "href": "talk.html#bids-has-enabled-consistent-growth-of-openneuro",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "BIDS has enabled consistent growth of OpenNeuro",
+    "text": "BIDS has enabled consistent growth of OpenNeuro\n\n\nupdated from Markiewicz et al, 2021, eLife"
+  },
+  {
+    "objectID": "talk.html#section-8",
+    "href": "talk.html#section-8",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Are neuroimaging results robust?\nGiven the same data and different analysis, can we come to the same conclusions?"
+  },
+  {
+    "objectID": "talk.html#multiverse-analysis",
+    "href": "talk.html#multiverse-analysis",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Multiverse analysis",
+    "text": "Multiverse analysis\n\n\n\nIf the same dataset is analyzed in different ways, do we get the same answer?\nPrevious work shows large effects of different analysis workflows\n\n“Vibration of effects” (Ioannidis)\n\n\n\n\n\n\nSteegen et al., 2016"
+  },
+  {
+    "objectID": "talk.html#section-9",
+    "href": "talk.html#section-9",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Poldrack et al., 2017"
+  },
+  {
+    "objectID": "talk.html#section-10",
+    "href": "talk.html#section-10",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "“data collection and analysis methods were highly flexible across studies, with nearly as many unique analysis pipelines as there were studies in the sample [241].”"
+  },
+  {
+    "objectID": "talk.html#improving-reproducibility-through-pre-registration",
+    "href": "talk.html#improving-reproducibility-through-pre-registration",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Improving reproducibility through pre-registration",
+    "text": "Improving reproducibility through pre-registration\n\n\n\nRegister analysis plan prior to accessing data\n\nPreferably with code based on analysis of simulated data\n\nThis does not prevent exploratory analysis\n\nBut planned and exploratory analyses should be clearly delineated in the paper\n\nIf the preregistration commits you to something that you learn is bad, you can always deviate\n\nas long as you are explicit in the paper\n\n\n\n\n\n\nhttp://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html"
+  },
+  {
+    "objectID": "talk.html#section-12",
+    "href": "talk.html#section-12",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "The requirement for clinical trial registration was associated with many more null effects\nThis is a “cost” under the current incentives to publish\n\n\n\n\n\nKaplan & Irvin, 2015"
+  },
+  {
+    "objectID": "talk.html#section-13",
+    "href": "talk.html#section-13",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Pre-registration prevents p-hacking but does not eliminate analytic variability\n\nHow variable are neuroimaging analysis workflows in the wild?\n\nWhat is the effect on scientific inferences?"
+  },
+  {
+    "objectID": "talk.html#section-14",
+    "href": "talk.html#section-14",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Botvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#data-collection-mixed-gambles-task",
+    "href": "talk.html#data-collection-mixed-gambles-task",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Data collection: Mixed gambles task",
+    "text": "Data collection: Mixed gambles task\n\nFunctional MRI data for 108 subjects collected at Tel Aviv University\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#study-recruitment",
+    "href": "talk.html#study-recruitment",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Study recruitment",
+    "text": "Study recruitment\n\nAnalysis teams recruited via social media and conferences\n\nUp to 3 people each\nSigned non-disclosure agreement\nOffered co-authorship on initial paper\n\nRaw dataset (~400GB) distributed to 82 teams via Globus\nTeams given ~3 months to provide Y/N answers to 9 hypothesis tests:\n\nIs there significant activation in  for ?\n\nUsing their standard analysis workflow\n\nOnly restriction was that analysis should include whole brain\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#results-collection",
+    "href": "talk.html#results-collection",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Results collection",
+    "text": "Results collection\n\nReceived final results from 70 teams\nTeams reported their yes/no decisions for each hypothesis\n\nAlso uploaded the whole-brain statistical maps before and after thresholding\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#how-variable-are-workflows-in-the-wild",
+    "href": "talk.html#how-variable-are-workflows-in-the-wild",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "How variable are workflows in the wild?",
+    "text": "How variable are workflows in the wild?\n\n\n\nTeams provided a detailed written description of analysis workflows\nNo 2 teams used an identical workflow\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#what-is-the-effect-of-analytic-variability-on-outcomes",
+    "href": "talk.html#what-is-the-effect-of-analytic-variability-on-outcomes",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "What is the effect of analytic variability on outcomes?",
+    "text": "What is the effect of analytic variability on outcomes?\n\n\n\nAcross teams there were 33 different patterns of outcomes\nFor any hypothesis, there are at least 4 workflows that can give a positive result\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#variability-of-whole-brain-results",
+    "href": "talk.html#variability-of-whole-brain-results",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Variability of whole-brain results",
+    "text": "Variability of whole-brain results\n\nProportion of teams with activity in each voxel\n\n\n\nMaximum overlap for all hypotheses: 76%\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#section-15",
+    "href": "talk.html#section-15",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Botvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#section-16",
+    "href": "talk.html#section-16",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Botvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#meta-analysis-across-groups-shows-reliable-findings",
+    "href": "talk.html#meta-analysis-across-groups-shows-reliable-findings",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Meta-analysis across groups shows reliable findings",
+    "text": "Meta-analysis across groups shows reliable findings\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#how-to-improve-analytic-robustness",
+    "href": "talk.html#how-to-improve-analytic-robustness",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "How to improve analytic robustness",
+    "text": "How to improve analytic robustness"
+  },
+  {
+    "objectID": "talk.html#improving-robustness-using-well-tested-software-tools",
+    "href": "talk.html#improving-robustness-using-well-tested-software-tools",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Improving robustness using well-tested software tools",
+    "text": "Improving robustness using well-tested software tools"
+  },
+  {
+    "objectID": "talk.html#fmriprep-robust-preprocessing-of-fmri-data",
+    "href": "talk.html#fmriprep-robust-preprocessing-of-fmri-data",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "fMRIprep: Robust preprocessing of fMRI data",
+    "text": "fMRIprep: Robust preprocessing of fMRI data\n\n\nfmriprep.org; Esteban et al, 2019"
+  },
+  {
+    "objectID": "talk.html#mriqc-mri-quality-control-for-bids-data",
+    "href": "talk.html#mriqc-mri-quality-control-for-bids-data",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "MRIQC: MRI quality control for BIDS data",
+    "text": "MRIQC: MRI quality control for BIDS data\n\n\nmriqc.org; Esteban et al, 2017"
+  },
+  {
+    "objectID": "talk.html#section-17",
+    "href": "talk.html#section-17",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Are neuroimaging results replicable?\nIf we run the same study again, can we get the same result?"
+  },
+  {
+    "objectID": "talk.html#section-18",
+    "href": "talk.html#section-18",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Open Science Collaboration, 2015"
+  },
+  {
+    "objectID": "talk.html#irreproducible-correlations",
+    "href": "talk.html#irreproducible-correlations",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Irreproducible correlations",
+    "text": "Irreproducible correlations\n\n\n\nBoekel et al., 2015\n\n“Here, we attempt to replicate five structural brain-behavior correlation studies comprising a total of 17 effects. To prevent the impact of QRPs we employed a preregistered, purely confirmatory replication approach. For all but one of the 17 findings under scrutiny, confirmatory Bayesian hypothesis tests indicated evidence in favor of the null hypothesis ranging from anecdotal (BF &lt; 3) to strong (BF &gt; 10). In several studies, effect size estimates were substantially lower than in the original studies.”"
+  },
+  {
+    "objectID": "talk.html#the-challenges-of-reproducing-the-same-analysis",
+    "href": "talk.html#the-challenges-of-reproducing-the-same-analysis",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "The challenges of reproducing the “same” analysis",
+    "text": "The challenges of reproducing the “same” analysis\n\n\nIn the NARPS study, even with a standards-compliant description of the workflow it was often impossible to tell what was actually done in the analysis."
+  },
+  {
+    "objectID": "talk.html#the-necessity-of-code-sharing",
+    "href": "talk.html#the-necessity-of-code-sharing",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "The necessity of code sharing",
+    "text": "The necessity of code sharing\n\n“an article about a computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result.” - adapted from Buckheit & Donoho, 1995"
+  },
+  {
+    "objectID": "talk.html#overfitting-and-double-dipping",
+    "href": "talk.html#overfitting-and-double-dipping",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Overfitting and double-dipping",
+    "text": "Overfitting and double-dipping"
+  },
+  {
+    "objectID": "talk.html#overfitting-and-double-dipping-1",
+    "href": "talk.html#overfitting-and-double-dipping-1",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Overfitting and double-dipping",
+    "text": "Overfitting and double-dipping"
+  },
+  {
+    "objectID": "talk.html#overfitting-and-double-dipping-2",
+    "href": "talk.html#overfitting-and-double-dipping-2",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Overfitting and double-dipping",
+    "text": "Overfitting and double-dipping"
+  },
+  {
+    "objectID": "talk.html#overfitting-and-double-dipping-3",
+    "href": "talk.html#overfitting-and-double-dipping-3",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Overfitting and double-dipping",
+    "text": "Overfitting and double-dipping"
+  },
+  {
+    "objectID": "talk.html#section-19",
+    "href": "talk.html#section-19",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Used recklessly, machine learning methods can easily go wrong\n\n\n\n\n“We surveyed a variety of research that uses ML and found that data leakage affects at least 294 studies across 17 fields, leading to overoptimistic findings.”"
+  },
+  {
+    "objectID": "talk.html#section-20",
+    "href": "talk.html#section-20",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Checklist at https://reforms.cs.princeton.edu/"
+  },
+  {
+    "objectID": "talk.html#section-21",
+    "href": "talk.html#section-21",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "Are neuroimaging results reproducible?\nGiven the same data and code, can we get the same result?"
+  },
+  {
+    "objectID": "talk.html#challenges-of-computational-reproducibility",
+    "href": "talk.html#challenges-of-computational-reproducibility",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Challenges of computational reproducibility",
+    "text": "Challenges of computational reproducibility\n\n\n\nHardwicke et al., 2021\n\nWe evaluated analytic reproducibility in 25 Psychological Science articles awarded open data badges between 2014 and 2015. Initially, 16 (64%, 95% confidence interval [43,81]) articles contained at least one ‘major numerical discrepancy’ (&gt;10% difference) prompting us to request input from original authors. Ultimately, target values were reproducible without author involvement for 9 (36% [20,59]) articles; reproducible with author involvement for 6 (24% [8,47]) articles; not fully reproducible with no substantive author response for 3 (12% [0,35]) articles; and not fully reproducible despite author involvement for 7 (28% [12,51]) articles."
+  },
+  {
+    "objectID": "talk.html#platform-dependence-of-analysis-results",
+    "href": "talk.html#platform-dependence-of-analysis-results",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Platform-dependence of analysis results",
+    "text": "Platform-dependence of analysis results"
+  },
+  {
+    "objectID": "talk.html#sharing-platforms-via-containers",
+    "href": "talk.html#sharing-platforms-via-containers",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "Sharing platforms via containers",
+    "text": "Sharing platforms via containers\n\n\n\nContainers provide a way to share an entire computing platform\n\nIncludes specific versions of all software libraries"
+  },
+  {
+    "objectID": "talk.html#section-22",
+    "href": "talk.html#section-22",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "We have the tools that we need to solve the reproducibility problems in neuroimaging."
+  },
+  {
+    "objectID": "talk.html#section-23",
+    "href": "talk.html#section-23",
+    "title": "Making Cognitive Neuroscience Open and Reproducible",
+    "section": "",
+    "text": "http://poldrack.github.io/talks-MakingCogNeuroOpenReproducible"
   }
 ]

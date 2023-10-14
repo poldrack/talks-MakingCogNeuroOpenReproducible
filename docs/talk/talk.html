@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-99.9.9">
 
   <meta name="author" content="Russ Poldrack">
-  <title>Talk template</title>
+  <title>Making Cognitive Neuroscience Open and Reproducible</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -328,7 +328,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="./images/stanford_background.jpg" data-background-opacity="0.5" class="quarto-title-block center">
-  <h1 class="title">Talk template</h1>
+  <h1 class="title">Making Cognitive Neuroscience Open and Reproducible</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -342,11 +342,591 @@ Russ Poldrack
 </div>
 
 </section>
-<section id="template-slide" class="slide level2">
-<h2>Template slide</h2>
+<section id="section" class="slide level2 centered-bigger">
+<h2></h2>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 0%; width: 100%; ">
+<p>The dimensions of scientific reproducibility</p>
+</div>
+<p><img data-src="./images/turingway_reproduducibilty.png" class="absolute" style="top: 20%; left: 20%; width: 60%; "></p>
+<div class="absolute" style="font-size: 0.6em; text-align: center;top: 82%; left: 30%; ">
+<p>From The Turing Way, Ch. 2; doi:10.5281/zenodo.3233853</p>
+</div>
+</section>
+<section id="section-1" class="slide level2 centered-bigger">
+<h2></h2>
+<p><img data-src="./images/turingway_generalizable.png" class="absolute" style="top: 0%; left: 25%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 50%; left: 0%; ">
+<p>Are neuroimaging results generalizable?</p>
+<p>Given different data and different analysis, can we come to the same general conclusions?</p>
+</div>
+</section>
+<section id="section-2" class="slide level2 centered-bigger">
+<h2></h2>
+<p>What is the brain dysfunction in major depression?</p>
+<p>Meta-analysis of 99 published studies</p>
+<p><img data-src="./images/muller_2017_figure2.png" class="absolute" style="top: 20%; left: 10%; height: 75%; "></p>
+<div class="absolute" style="font-size: 0.8em; text-align: left;top: 95%; left: 0%; ">
+<p>Muller et al, 2017, <em>JAMA Psychiatry</em></p>
+</div>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p><img data-src="./images/muller_title.png" class="absolute" style="top: 10%; left: 00%; height: 40%; "></p>
+<p><img data-src="./images/muller_abstract.png" class="absolute" style="top: 50%; left: 00%; height: 40%; "></p>
+</section>
+<section id="neuroscience-research-is-badly-underpowered" class="slide level2">
+<h2>Neuroscience research is badly underpowered</h2>
+<p><img data-src="images/button_title.png" class="absolute" style="top: 20%; left: 0%; width: 40%; "> <img data-src="images/button_journal.png" class="absolute" style="top: 45%; left: 5%; width: 30%; "> <img data-src="images/button_figure.png" class="absolute" style="top: 55%; left: 0%; width: 45%; "></p>
+<p><img data-src="images/dumas_title.png" class="absolute" style="top: 10%; left: 55%; height: 35%; "> <img data-src="images/dumas_figure.png" class="absolute" style="top: 50%; left: 50%; height: 50%; "></p>
+</section>
+<section id="low-power---unreliable-science" class="slide level2">
+<h2>Low power -&gt; unreliable science</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Positive Predictive Value (PPV): The probability that a positive result is true</p>
+</div><div class="column" style="width:50%;">
+<p>Winner’s Curse: overestimation of effect sizes for significant results</p>
+</div>
+</div>
+<p><img data-src="images/ppv_formula.png" class="absolute" style="top: 20%; left: 00%; width: 50%; "></p>
+<p><img data-src="images/ppv_by_power.png" class="absolute" style="top: 35%; left: 00%; width: 40%; "></p>
+<p><img data-src="images/winners_curse.png" class="absolute" style="top: 30%; left: 50%; width: 40%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; left: 38%; ">
+<p>Button et al, 2013</p>
+</div>
+</section>
+<section id="small-samples-high-instability-of-statistical-estimates" class="slide level2">
+<h2>Small samples = high instability of statistical estimates</h2>
+<p><img data-src="images/schonbrodt.png" class="absolute" style="top: 15%; left: 18%; height: 70%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; left: 38%; ">
+<p>Schonbrodt &amp; Perugini, 2013</p>
+</div>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p><img data-src="images/marek.png" class="absolute" style="top: 0%; left: 17%; height: 85%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; left: 38%; ">
+<p>Marek et al., 2022</p>
+</div>
+</section>
+<section id="small-samples-publication-bias-the-case-of-candidate-genes" class="slide level2">
+<h2>Small samples + publication bias: the case of candidate genes</h2>
+<p><img data-src="images/molendijk_title.png" class="absolute" style="top: 10%; left: 0%; height: 20%; "></p>
+<p><img data-src="images/molendijk_figure.png" class="absolute" style="top: 30%; left: 30%; height: 60%; "></p>
+</section>
+<section id="candidate-gene-associations-fail-in-well-powered-gwas" class="slide level2">
+<h2>Candidate gene associations fail in well-powered GWAS</h2>
+<p><img data-src="images/stein_plot.png" class="absolute" style="top: 20%; left: 60%; width: 35%; "></p>
+<p><img data-src="images/stein_title.png" class="absolute" style="top: 10%; left: 0%; width: 80%; "></p>
+<div class="absolute" style="text-align: left;top: 25%; left: 1%; ">
+<p>Jason stein et al.&nbsp;for the ENIGMA Consortium</p>
+</div>
+<p><img data-src="images/stein_journal.png" class="absolute" style="top: 32%; left: 1%; width: 40%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: left;top: 40%; left: 1%; width: 50%; ">
+<p>“In general, previously identified poly­morphisms associated with hippocampal volume showed little association in our meta­-analysis (BDNF, TOMM40, CLU, PICALM, ZNF804A, COMT, DISC1, NRG1, DTNBP1), nor did SNPs previously associated with schizophrenia or bipolar disorder”</p>
+</div>
+</section>
+<section id="how-well-powered-are-fmri-studies" class="slide level2">
+<h2>How well powered are fMRI studies?</h2>
+<p><img data-src="images/Figure1_2023.png" class="absolute" style="top: 10%; left: 5%; width: 80%; "></p>
+<div class="absolute" style="text-align: left;top: 75%; left: 0%; ">
+<ul>
+<li>Median study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67</li>
+<li>Is that plausible?</li>
+</ul>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; left: 0%; ">
+<p>Updated from Poldrack et al., 2017</p>
+</div>
+</section>
+<section id="estimating-realistic-effect-sizes" class="slide level2">
+<h2>Estimating realistic effect sizes</h2>
+<p><img data-src="images/effect_size_pt1.png" class="absolute" style="top: 15%; left: 0%; height: 80%; "></p>
+</section>
+<section id="estimating-realistic-effect-sizes-1" class="slide level2">
+<h2>Estimating realistic effect sizes</h2>
+<p><img data-src="images/effect_size_pt1.png" class="absolute" style="top: 15%; left: 0%; height: 80%; "></p>
+<p><img data-src="images/effect_size_pt2.png" class="absolute" style="top: 15%; left: 45%; height: 25%; "></p>
+</section>
+<section id="estimating-realistic-effect-sizes-2" class="slide level2">
+<h2>Estimating realistic effect sizes</h2>
+<p><img data-src="images/effect_size_pt1.png" class="absolute" style="top: 15%; left: 0%; height: 80%; "></p>
+<p><img data-src="images/effect_size_pt2.png" class="absolute" style="top: 15%; left: 45%; height: 25%; "></p>
+<p><img data-src="images/effect_size_pt3.png" class="absolute" style="top: 55%; left: 45%; height: 35%; "></p>
+</section>
+<section id="estimating-realistic-effect-sizes-3" class="slide level2">
+<h2>Estimating realistic effect sizes</h2>
+<p><img data-src="images/effect_size_arrows.png" class="absolute" style="top: 38%; left: 45%; height: 20%; "></p>
+<p><img data-src="images/effect_size_pt1.png" class="absolute" style="top: 15%; left: 0%; height: 80%; "></p>
+<p><img data-src="images/effect_size_pt2.png" class="absolute" style="top: 15%; left: 45%; height: 25%; "></p>
+<p><img data-src="images/effect_size_pt3.png" class="absolute" style="top: 55%; left: 45%; height: 35%; "></p>
+<div class="absolute" style="font-size: 1.3em; text-align: center;top: 40%; left: 75%; width: 15%; ">
+<p>Unbiased effect size estimate</p>
+</div>
+</section>
+<section id="what-are-realistic-effect-sizes-for-fmri" class="slide level2">
+<h2>What are realistic effect sizes for fMRI?</h2>
+<p><img data-src="images/effect_size_plot.png" class="absolute" style="top: 10%; left: 5%; height: 75%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; left: 0%; ">
+<p>Poldrack et al., 2017, <em>Nature Reviews Neuroscience</em></p>
+</div>
+</section>
+<section id="depression-studies-from-muller-et-al." class="slide level2">
+<h2>Depression studies from Muller et al.</h2>
+<p><img data-src="images/muller_n_by_year_sufficientN.png" class="absolute" style="top: 10%; left: 0%; width: 50%; "></p>
+<div class="absolute" style="text-align: left;top: 17%; left: 50%; ">
+<p><strong>Authors must collect at last 20 observations per cell or else provide a compelling cost-of-data-collection justification.</strong> This requirement offers extra protection for the first requirement. Samples smaller than 20 per cell are simply not powerful enough to detect most effects, and so there is usually no good reason to decide in advance to collect such a small number of observations. Smaller samples, it follows, are much more likely to reflect interim data analysis and a flexible termination rule (Simmons et al., 2011)</p>
+</div>
+</section>
+<section id="small-samples---variable-estimates-of-predictive-accuracy" class="slide level2">
+<h2>Small samples -&gt; variable estimates of predictive accuracy</h2>
+<p><img data-src="images/varoquaux_variability.png" class="absolute" style="top: 10%; left: 12%; height: 75%; "></p>
+<div class="absolute" style="text-align: left;top: 90%; left: 0%; ">
+<p>Varoquaux, 2018</p>
+</div>
+</section>
+<section id="small-samples-publication-bias---inflated-accuracy-estimates" class="slide level2">
+<h2>Small samples + publication bias -&gt; inflated accuracy estimates</h2>
+<p><img data-src="images/varoquaux_decline.png" class="absolute" style="top: 10%; left: 12%; height: 75%; "></p>
+<div class="absolute" style="text-align: left;top: 90%; left: 0%; ">
+<p>Varoquaux, 2018</p>
+</div>
+</section>
+<section id="section-5" class="slide level2 centered-bigger">
+<h2></h2>
+<p><img data-src="./images/turingway_generalizable.png" class="absolute" style="top: 0%; left: 25%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 50%; left: 0%; ">
+<p>The generalizability of neuroimaging results is imperiled by low sample sizes</p>
+</div>
+</section>
+<section id="improving-statistical-power-through-data-sharing" class="slide level2">
+<h2>Improving statistical power through data sharing</h2>
+<p><img data-src="images/data_sharing.png" class="absolute" style="top: 10%; left: 0%; width: 100%; "></p>
+</section>
+<section id="openneuro-sharing-raw-and-processed-neuroimaging-data" class="slide level2">
+<h2>OpenNeuro: Sharing raw and processed neuroimaging data</h2>
+<p><img data-src="./images/openneuro_landing.png" class="absolute" style="top: 10%; left: 15%; height: 80%; "></p>
+<div class="absolute" style="top: 85%; left: 0px; ">
+<p>Markiewicz et al, 2021, <em>eLife</em></p>
+</div>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 2em; text-align: center;top: 20%; left: 0%; ">
+<p>Simply sharing data is not sufficient - It’s easy to share data badly.</p>
+</div>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 2em; text-align: center;top: 20%; left: 0%; ">
+<p>Simply sharing data is not sufficient - It’s easy to share data badly.</p>
+</div>
+<div class="absolute" style="font-size: 2em; text-align: center;top: 55%; left: 0%; ">
+<p>Data must be shared in a way that makes them useful!</p>
+</div>
+</section>
+<section id="brain-imaging-data-structure-bids" class="slide level2">
+<h2>Brain Imaging Data Structure (BIDS)</h2>
+<div style="font-size: 1.2em">
+<ul>
+<li>A community-based open standard for neuroimaging data
+<ul>
+<li>A file organization standard</li>
+<li>A metadata standard</li>
+</ul></li>
+<li>Available for MRI, PET, EEG, iEEG, fNIRS</li>
+</ul>
+</div>
+<p><img data-src="./images/bids_scidata.png" class="absolute" style="top: 45%; left: 0%; height: 35%; "> <img data-src="./images/dicom_to_bids.png" class="absolute" style="top: 40%; left: 45%; height: 50%; "></p>
+</section>
+<section id="the-growing-usage-of-bids-an-example" class="slide level2">
+<h2>The growing usage of BIDS: An example</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size: 1.2em">
+<ul>
+<li>MRIQC Web API
+<ul>
+<li>Crowdsourced database of MRIQC metrics</li>
+<li>QC metrics from ~450K unique BOLD scans and ~350K T1w scans as of June 2023</li>
+<li>Publicly available: https://mriqc.nimh.nih.gov/</li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+
+</div>
+</div>
+<p><img data-src="./images/mriqc_webapi_title.png" class="absolute" style="top: 10%; left: 50%; height: 25%; "></p>
+<p><img data-src="./images/mriqc_api_growth.png" class="absolute" style="top: 40%; left: 50%; height: 50%; "></p>
+</section>
+<section id="bids-has-enabled-consistent-growth-of-openneuro" class="slide level2">
+<h2>BIDS has enabled consistent growth of OpenNeuro</h2>
+<p><img data-src="./images/combined_growth.png" class="absolute" style="top: 10%; left: 10%; height: 70%; "></p>
+<div class="absolute" style="font-size: 0.8em;top: 85%; left: 0px; ">
+<p>updated from Markiewicz et al, 2021, <em>eLife</em></p>
+</div>
+</section>
+<section id="section-8" class="slide level2 centered-bigger">
+<h2></h2>
+<p><img data-src="./images/turingway_robust.png" class="absolute" style="top: 0%; left: 25%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 50%; left: 0%; ">
+<p>Are neuroimaging results robust?</p>
+<p>Given the same data and different analysis, can we come to the same conclusions?</p>
+</div>
+</section>
+<section id="multiverse-analysis" class="slide level2">
+<h2>Multiverse analysis</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>If the same dataset is analyzed in different ways, do we get the same answer?</li>
+<li>Previous work shows large effects of different analysis workflows
+<ul>
+<li>“Vibration of effects” (Ioannidis)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="./images/steegen_multiverse.png" class="absolute" style="top: 0%; left: 40%; width: 55%; "></p>
+<div class="absolute" style="top: 70%; left: 60%; ">
+<p>Steegen et al., 2016</p>
+</div>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<p><img data-src="images/processing_options.png" class="absolute" style="top: 0%; left: 15%; height: 87%; "></p>
+<div class="absolute" style="text-align: left;top: 90%; left: 35%; ">
+<p>Poldrack et al., 2017</p>
+</div>
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<p><img data-src="images/carp_secret_title.png" class="absolute" style="top: 0%; left: 0%; height: 15%; "> <img data-src="images/carp_secret_journal.png" class="absolute" style="top: 15%; left: 0%; height: 5%; "> <img data-src="images/carp_secret_plots.png" class="absolute" style="top: 20%; left: 5%; width: 85%; "></p>
+<div class="absolute" style="text-align: center;top: 80%; left: 0%; width: 100%; ">
+<p>“data collection and analysis methods were highly flexible across studies, with nearly as many unique analysis pipelines as there were studies in the sample [241].”</p>
+</div>
+</section>
+<section id="section-11" class="slide level2">
+<h2></h2>
+<p><img data-src="images/carp_variability_title.png" class="absolute" style="top: 0%; left: 0%; height: 25%; "> <img data-src="images/carp_variability_result.png" class="absolute" style="top: 30%; left: 5%; width: 85%; "></p>
+</section>
+<section id="improving-reproducibility-through-pre-registration" class="slide level2">
+<h2>Improving reproducibility through pre-registration</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Register analysis plan prior to accessing data
+<ul>
+<li>Preferably with code based on analysis of simulated data</li>
+</ul></li>
+<li>This does not prevent exploratory analysis
+<ul>
+<li>But planned and exploratory analyses should be clearly delineated in the paper</li>
+</ul></li>
+<li>If the preregistration commits you to something that you learn is bad, you can always deviate
+<ul>
+<li>as long as you are explicit in the paper</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="images/mriqc_prereg.png" class="absolute" style="top: 15%; left: 55%; width: 45%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html</p>
+</div>
+</section>
+<section id="section-12" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>The requirement for clinical trial registration was associated with many more null effects</li>
+<li>This is a “cost” under the current incentives to publish</li>
+</ul>
+</div>
+</div>
+<p><img data-src="images/kaplan_irvin.png" class="absolute" style="top: 0%; left: 40%; height: 85%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Kaplan &amp; Irvin, 2015</p>
+</div>
+</section>
+<section id="section-13" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
+<p>Pre-registration prevents p-hacking but does not eliminate analytic variability<br>
+<br>
+How variable are neuroimaging analysis workflows in the wild?<br>
+<br>
+What is the effect on scientific inferences?</p>
+</div>
+</section>
+<section id="section-14" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_group.png" class="absolute" style="top: 0%; left: 10%; height: 90%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="data-collection-mixed-gambles-task" class="slide level2">
+<h2>Data collection: Mixed gambles task</h2>
+<ul>
+<li>Functional MRI data for 108 subjects collected at Tel Aviv University</li>
+</ul>
+<p><img data-src="images/narps_task.png" class="absolute" style="top: 20%; left: 10%; height: 70%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="study-recruitment" class="slide level2">
+<h2>Study recruitment</h2>
+<ul>
+<li>Analysis teams recruited via social media and conferences
+<ul>
+<li>Up to 3 people each</li>
+<li>Signed non-disclosure agreement</li>
+<li>Offered co-authorship on initial paper</li>
+</ul></li>
+<li>Raw dataset (~400GB) distributed to 82 teams via Globus</li>
+<li>Teams given ~3 months to provide Y/N answers to 9 hypothesis tests:
+<ul>
+<li>Is there significant activation in <brain area=""> for <feature of="" experimental="" design="">?</feature></brain></li>
+</ul></li>
+<li>Using their standard analysis workflow
+<ul>
+<li>Only restriction was that analysis should include whole brain</li>
+</ul></li>
+</ul>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="results-collection" class="slide level2">
+<h2>Results collection</h2>
+<ul>
+<li>Received final results from 70 teams</li>
+<li>Teams reported their yes/no decisions for each hypothesis
+<ul>
+<li>Also uploaded the whole-brain statistical maps before and after thresholding</li>
+</ul></li>
+</ul>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="how-variable-are-workflows-in-the-wild" class="slide level2">
+<h2>How variable are workflows in the wild?</h2>
+<p><img data-src="images/cobidas_title.png" class="absolute" style="top: 20%; left: 10%; width: 70%; "></p>
+<div class="absolute" style="text-align: center;top: 55%; width: 100%; ">
+<ul>
+<li>Teams provided a detailed written description of analysis workflows</li>
+<li>No 2 teams used an identical workflow</li>
+</ul>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="what-is-the-effect-of-analytic-variability-on-outcomes" class="slide level2">
+<h2>What is the effect of analytic variability on outcomes?</h2>
+<p><img data-src="images/narps_outcomes.png" class="absolute" style="top: 10%; left: 20%; height: 60%; "></p>
+<div class="absolute" style="top: 75%; ">
+<ul>
+<li>Across teams there were 33 different patterns of outcomes</li>
+<li>For any hypothesis, there are at least 4 workflows that can give a positive result</li>
+</ul>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="variability-of-whole-brain-results" class="slide level2">
+<h2>Variability of whole-brain results</h2>
+<div class="absolute" style="font-size: 1.4em; text-align: center;top: 15%; width: 100%; ">
+<p>Proportion of teams with activity in each voxel</p>
+</div>
+<p><img data-src="images/narps_wholebrain.png" class="absolute" style="top: 30%; left: 15%; width: 70%; "></p>
+<div class="absolute" style="font-size: 1.4em; text-align: center;top: 70%; width: 100%; ">
+<p>Maximum overlap for all hypotheses: 76%</p>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="section-15" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_corrmap1.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="section-16" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_corrmap2.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="meta-analysis-across-groups-shows-reliable-findings" class="slide level2">
+<h2>Meta-analysis across groups shows reliable findings</h2>
+<p><img data-src="images/narps_meta.png" class="absolute" style="top: 10%; left: 8%; height: 80%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="how-to-improve-analytic-robustness" class="slide level2">
+<h2>How to improve analytic robustness</h2>
+<p><img data-src="images/elife_multi_analyst.png" class="absolute" style="top: 10%; left: 0%; height: 30%; "> <img data-src="images/blind_analysis.png" class="absolute" style="top: 50%; left: 0%; height: 45%; "> <img data-src="images/simulated_data_gelman.png" class="absolute" style="top: 30%; left: 50%; width: 45%; "></p>
+</section>
+<section id="improving-robustness-using-well-tested-software-tools" class="slide level2">
+<h2>Improving robustness using well-tested software tools</h2>
+<p><img data-src="https://www.nipreps.org/assets/nipreps-chart.png" class="absolute" style="top: 10%; left: 15%; height: 75%; "></p>
+</section>
+<section id="fmriprep-robust-preprocessing-of-fmri-data" class="slide level2">
+<h2>fMRIprep: Robust preprocessing of fMRI data</h2>
+<p><img data-src="./images/fmriprep/fmriprep.jpg" class="absolute" style="top: 10%; left: 15%; height: 80%; "></p>
+<div class="absolute" style="font-size: 1.2em;top: 85%; ">
+<p>fmriprep.org; Esteban et al, 2019</p>
+</div>
+</section>
+<section id="mriqc-mri-quality-control-for-bids-data" class="slide level2">
+<h2>MRIQC: MRI quality control for BIDS data</h2>
+<p><img data-src="https://journals.plos.org/plosone/article/figure/image?size=large&amp;id=10.1371/journal.pone.0184661.g005" class="absolute" style="top: 10%; left: 25%; height: 80%; "></p>
+<div class="absolute" style="font-size: 1.2em;top: 85%; ">
+<p>mriqc.org; Esteban et al, 2017</p>
+</div>
+</section>
+<section id="section-17" class="slide level2 centered-bigger">
+<h2></h2>
+<p><img data-src="./images/turingway_replicable.png" class="absolute" style="top: 0%; left: 25%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 50%; left: 0%; ">
+<p>Are neuroimaging results replicable?</p>
+<p>If we run the same study again, can we get the same result?</p>
+</div>
+</section>
+<section id="section-18" class="slide level2">
+<h2></h2>
+<p><img data-src="./images/rpp_result.jpeg" class="absolute" style="top: 0%; left: 15%; height: 80%; "></p>
+<div class="absolute" style="font-size: 1.2em;top: 85%; ">
+<p>Open Science Collaboration, 2015</p>
+</div>
+</section>
+<section id="irreproducible-correlations" class="slide level2">
+<h2>Irreproducible correlations</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Boekel et al., 2015
+<ul>
+<li>“Here, we attempt to replicate five structural brain-behavior correlation studies comprising a total of 17 effects. To prevent the impact of QRPs we employed a preregistered, purely confirmatory replication approach. For all but one of the 17 findings under scrutiny, confirmatory Bayesian hypothesis tests indicated evidence in favor of the null hypothesis ranging from anecdotal (BF &lt; 3) to strong (BF &gt; 10). In several studies, effect size estimates were substantially lower than in the original studies.”</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="./images/boekel_metafigure.jpg" class="absolute" style="top: 0%; left: 50%; width: 45%; "></p>
+</section>
+<section id="the-challenges-of-reproducing-the-same-analysis" class="slide level2">
+<h2>The challenges of reproducing the “same” analysis</h2>
+<p><img data-src="./images/cobidas_title.png" class="absolute" style="top: 10%; left: 20%; width: 60%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 40%; left: 0%; ">
+<p>In the NARPS study, even with a standards-compliant description of the workflow it was often impossible to tell what was actually done in the analysis.</p>
+</div>
+</section>
+<section id="the-necessity-of-code-sharing" class="slide level2">
+<h2>The necessity of code sharing</h2>
+<div class="absolute" style="font-size: 1.4em; text-align: center;top: 20%; left: 0%; ">
+<p>“an article about a computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result.” - adapted from Buckheit &amp; Donoho, 1995</p>
+</div>
+</section>
+<section id="overfitting-and-double-dipping" class="slide level2">
+<h2>Overfitting and double-dipping</h2>
+<p><img data-src="./images/nih_headline_suicide.png" class="absolute" style="top: 10%; left: 00%; height: 80%; "></p>
+</section>
+<section id="overfitting-and-double-dipping-1" class="slide level2">
+<h2>Overfitting and double-dipping</h2>
+<p><img data-src="./images/nih_headline_suicide.png" class="absolute" style="top: 10%; left: 00%; height: 80%; "></p>
+<p><img data-src="./images/suicide_pattern.png" class="absolute" style="top: 30%; left: 50%; height: 60%; "></p>
+</section>
+<section id="overfitting-and-double-dipping-2" class="slide level2">
+<h2>Overfitting and double-dipping</h2>
+<p><img data-src="./images/cmu_press_release.png" class="absolute" style="top: 10%; left: 20%; height: 80%; "></p>
+</section>
+<section id="overfitting-and-double-dipping-3" class="slide level2">
+<h2>Overfitting and double-dipping</h2>
+<p><img data-src="./images/just_retraction.png" class="absolute" style="top: 10%; left: 0%; width: 100%; "></p>
+</section>
+<section id="section-19" class="slide level2">
+<h2></h2>
+<div style="font-size: 1.5em">
+<ul>
+<li>Used recklessly, machine learning methods can easily go wrong</li>
+</ul>
+</div>
+<p><img data-src="./images/kapoor_title.png" class="absolute" style="top: 30%; left: 0%; height: 25%; "></p>
+<div class="absolute" style="font-size: 1.5em;top: 65%; ">
+<p>“We surveyed a variety of research that uses ML and found that data leakage affects at least 294 studies across 17 fields, leading to overoptimistic findings.”</p>
+</div>
+</section>
+<section id="section-20" class="slide level2">
+<h2></h2>
+<p><img data-src="./images/reforms_title.png" class="absolute" style="top: 0%; left: 0%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.5em;top: 65%; left: 15%; ">
+<p>Checklist at https://reforms.cs.princeton.edu/</p>
+</div>
+</section>
+<section id="section-21" class="slide level2 centered-bigger">
+<h2></h2>
+<p><img data-src="./images/turingway_reproducible.png" class="absolute" style="top: 0%; left: 25%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: center;top: 50%; left: 0%; ">
+<p>Are neuroimaging results reproducible?</p>
+<p>Given the same data and code, can we get the same result?</p>
+</div>
+</section>
+<section id="challenges-of-computational-reproducibility" class="slide level2">
+<h2>Challenges of computational reproducibility</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Hardwicke et al., 2021
+<ul>
+<li>We evaluated analytic reproducibility in 25 Psychological Science articles awarded open data badges between 2014 and 2015. Initially, 16 (64%, 95% confidence interval [43,81]) articles contained at least one ‘major numerical discrepancy’ (&gt;10% difference) prompting us to request input from original authors. Ultimately, target values were reproducible without author involvement for 9 (36% [20,59]) articles; reproducible with author involvement for 6 (24% [8,47]) articles; not fully reproducible with no substantive author response for 3 (12% [0,35]) articles; and not fully reproducible despite author involvement for 7 (28% [12,51]) articles.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="./images/hardwicke_figure.gif" class="absolute" style="top: 10%; left: 55%; width: 40%; "></p>
+</section>
+<section id="platform-dependence-of-analysis-results" class="slide level2">
+<h2>Platform-dependence of analysis results</h2>
+<p><img data-src="./images/glatard_result.png" class="absolute" style="top: 10%; left: 0%; height: 80%; "></p>
+</section>
+<section id="sharing-platforms-via-containers" class="slide level2">
+<h2>Sharing platforms via containers</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Containers provide a way to share an entire computing platform
+<ul>
+<li>Includes specific versions of all software libraries</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="./images/docker.png" class="absolute" style="top: 20%; left: 50%; height: 70%; "></p>
+</section>
+<section id="section-22" class="slide level2">
+<h2></h2>
+<div class="absolute" style="text-align: center;top: 0%; width: 100%; ">
+<p>We have the tools that we need to solve the reproducibility problems in neuroimaging.</p>
+</div>
+<p><img data-src="./images/finale.png" class="absolute" style="top: 15%; left: 10%; width: 80%; "></p>
+</section>
+<section id="section-23" class="slide level2">
+<h2></h2>
+<p><img data-src="images/poldracklab_acknowledgments.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
 
 <div class="footer footer-default">
-<p>https://poldrack.github.io/talks-template/</p>
+<p>http://poldrack.github.io/talks-MakingCogNeuroOpenReproducible</p>
 </div>
 </section>
     </div>
