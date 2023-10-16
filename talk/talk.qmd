@@ -121,7 +121,7 @@ Marek et al., 2022
 
 ## Candidate gene associations fail in well-powered GWAS
 
-![](images/stein_plot.png){.absolute top="20%" left="60%" width="35%"}
+![](images/stein_plot.png){.absolute top="20%" left="60%" width="30%"}
 
 ![](images/stein_title.png){.absolute top="10%" left="0%" width="80%"}
 
